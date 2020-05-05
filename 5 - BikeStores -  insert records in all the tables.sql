@@ -1,9 +1,9 @@
 -- insert
 use BikeStores;
 
-INSERT INTO user_status(user_status_code,user_status_desription) VALUES('Active', 'Active');
-INSERT INTO user_status(user_status_code,user_status_desription) VALUES('Inactive', 'Inactive');
-INSERT INTO user_status(user_status_code,user_status_desription) VALUES('TempLock', 'Temporary disabled/locked');
+INSERT INTO user_status(user_status_code,user_status_description) VALUES('Active', 'Active');
+INSERT INTO user_status(user_status_code,user_status_description) VALUES('Inactive', 'Inactive');
+INSERT INTO user_status(user_status_code,user_status_description) VALUES('TempLock', 'Temporary disabled/locked');
 
 INSERT INTO order_status(order_status_code,order_status_description) VALUES('OrdAccept', 'Order Accepted');
 INSERT INTO order_status(order_status_code,order_status_description) VALUES('OrdConfirm', 'Order Confirmed');
